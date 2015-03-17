@@ -1,0 +1,124 @@
+/*============
+    Estilos
+  ============ */
+  @font-face {
+    font-family: 'oswald';
+    src: url('Oswald-Regular-webfont.eot');
+    src: url('Oswald-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Oswald-Regular-webfont.woff2') format('woff2'),
+         url('Oswald-Regular-webfont.woff') format('woff'),
+         url('Oswald-Regular-webfont.ttf') format('truetype'),
+         url('Oswald-Regular-webfont.svg#oswald_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ultra';
+    src: url('Ultra-webfont.eot');
+    src: url('Ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Ultra-webfont.woff') format('woff'),
+         url('Ultra-webfont.ttf') format('truetype'),
+         url('Ultra-webfont.svg#ultraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    
+}
+
+.navbar-default{
+    background-color: #26263f;
+}
+
+.navbar-brand{
+    font-family: 'oswald',Arial,sans-serif;
+    font-size: 24px;    
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-link, .navbar-default .btn-link{
+    color:white;
+}
+
+.navbar-default .navbar-text, .navbar-default .navbar-nav>li>a{
+    font-family: 'oswald',Arial,sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.navbar-default .navbar-text, .navbar-default .navbar-nav>li>a:hover{
+    color: tomato;
+}
+
+.redes{
+    padding: 16px;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-youtube{
+    color: #bb0000;
+}
+
+.fa-instagram{
+    color: #2f5574;
+
+}
+
+.fa-twitter{
+    color: #00aced;
+}
+.contenido{
+    background: white;
+    padding: 10px;
+}
+
+.noticias{
+    /*background: black;*/
+    background-image: url("http://lorempixel.com/800/400/") ;
+    padding: 10px;
+    color: black;
+    margin-bottom: 20px;
+    background-color: #ecf0f1;
+    height: 400px;
+}
+
+
+footer{
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.first{
+ 
+  margin: 50px;
+}
+
+.noticias p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  bottom: 0;
+  margin-top: 310px;
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  width: 100%;
+}
+
+span.price{
+  text-align: right;
+  float: right;
+}
+.noticias p {
+    color: rgba(255,255,255,1);
+
+}
