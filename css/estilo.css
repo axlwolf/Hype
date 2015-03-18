@@ -1,0 +1,173 @@
+/**********************************
+
+Colores
+Para la barra del menú principal: 26263f
+Para los títulos, el logo y el fondo de los banners: 1
+El fondo de la página será en: blanco
+Color de los figcations ff8352
+Tipografia
+Oswald - Para la barra del menú (categorías y subcategorías
+Ultra - Para los títulos de las notas, reseñas, promociones, y títulos de las categorías en el home.
+Helvetica - Para el cuerpo de todos los textos de la página.
+
+
+**********************************/
+
+
+/***********************
+    Estilos generales
+************************/
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+img{
+    width: 100%;
+}
+
+/**********************
+    Estilos header#principal
+**********************/
+
+#principal{
+    border: 1px solid red;
+    padding: 1em;
+    overflow: hidden;
+    position: relative;
+}
+
+#principal div{
+    width: 25%;
+    display: inline-block;
+}
+
+#principal .logo, #principal .social{
+    float: left;
+    border: 1px solid;
+}
+
+#principal .busqueda, #principal .music_widget{
+    float: right;
+    border: 1px solid;
+
+}
+
+#principal .logo img{
+    border-right: 3px solid #ff8352;
+    margin-right: 0.1em;
+    padding-right: 0.1em;
+    width: 120px;
+}
+
+#principal .social{
+    text-align: center;
+    width: 120px;
+    bottom: -115px;
+    position: relative;
+    padding: 0.2em;
+}
+
+/***************************
+    Estilos de navegacion
+***************************/
+
+
+nav{
+    background: #26263f;
+    overflow: hidden;
+    padding: 0 0.5em;
+    position: relative;
+    -webkit-box-shadow: 2px 2px 15px rgba(0,0,0,1);
+    -moz-box-shadow:  2px 2px 15px rgba(0,0,0,1);
+    box-shadow:  2px 2px 15px rgba(0,0,0,1);
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0.5em 0;
+    padding: 5px;
+}
+
+nav ul li a{
+    border-radius: 0.3em;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+}
+
+nav ul li a:hover{
+    border: 1px solid #ff8352;
+    border-radius: 0.3em;
+    background: white;
+    color: #26263f;
+}
+
+nav ul #agendita{
+    position: absolute;
+    top: -0.4em;
+    right: 0;
+}
+nav ul #agendita a{
+    background: #22BCE0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.6);
+    font-style: italic;
+    padding: 0.8em 0.5em;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+/*******************************
+    Estilos banner
+*******************************/
+
+.banner{
+    border: 1px solid red;
+    padding: 1em;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner .publicidad{
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+}
+
+.banner .publicidad img{
+    display: inline-block;
+    border-radius: 20px;
+
+}
+
+/*****************************
+    Estilos carrusel
+*****************************/
+#carrusel{
+    box-shadow: 2px 2px 2px rgab(0,0,0,0.5);
+    width: 100%;
+}
+#carrusel figure{
+    position: relative;
+}
+#carrusel figure img{
+    border: 1px solid red;
+}
+#carrusel figure figcaption p{
+    border: 1px solid red;
+    position: absolute;
+    background: rgba(255,131,82,0.5);
+    color: white;
+    font-family: 'oswald', Arial, sans-serif;
+    font-size: 12px;
+    padding: 1em;
+    top: 75%;
+    left:0;
+}
