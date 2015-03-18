@@ -69,12 +69,15 @@
 </section>
 
 <section id="contenido">
+    <h3>
+        Noticias
+    </h3>
     <article class="noticias">
         <h2>
             Noticias
         </h2>
         <figure>
-            <img src="http://lorempixel.com/200/300" alt=""/>
+            <img src="http://lorempixel.com/200/100" alt=""/>
 
             <figcaption>
                 <p>
@@ -89,7 +92,7 @@
             Cine
         </h2>
         <figure>
-            <img src="http://lorempixel.com/200/300" alt=""/>
+            <img src="http://lorempixel.com/200/100" alt=""/>
 
             <figcaption>
                 <p>
@@ -104,7 +107,7 @@
             Geek
         </h2>
         <figure>
-            <img src="http://lorempixel.com/200/300" alt=""/>
+            <img src="http://lorempixel.com/200/100" alt=""/>
 
             <figcaption>
                 <p>
@@ -119,7 +122,7 @@
             Festivales
         </h2>
         <figure>
-            <img src="http://lorempixel.com/200/300" alt=""/>
+            <img src="http://lorempixel.com/200/100" alt=""/>
 
             <figcaption>
                 <p>
@@ -130,6 +133,10 @@
     </article>
 
     <section id="eventos">
+        <h3>
+            Agenda
+        </h3>
+        <hr/>
         <article class="agenda">
             <div class="conciertos">
                 <p>Lorem ipsum dolor sit amet.</p>
@@ -148,20 +155,20 @@
 <aside id="aside">
     <div class="aside_info">
         <figure>
-            <img src="http://lorempixel.com/100/150" alt=""/>
+            <img src="http://lorempixel.com/200/100" alt=""/>
 
         </figure>
     </div>
 
     <div class="aside_info">
         <figure>
-            <img src="http://lorempixel.com/100/150" alt=""/>
+            <img src="http://lorempixel.com/200/100" alt=""/>
         </figure>
     </div>
 
     <div class="aside_info">
         <figure>
-            <img src="http://lorempixel.com/100/150" alt=""/>
+            <img src="http://lorempixel.com/200/100" alt=""/>
         </figure>
     </div>
 </aside>

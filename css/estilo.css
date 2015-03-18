@@ -63,7 +63,6 @@ h1,h2,h3,h4,h5,h6{
 **********************/
 
 #principal{
-    border: 1px solid red;
     padding: 0.3em;
     overflow: hidden;
     position: relative;
@@ -201,14 +200,12 @@ nav ul #agendita a{
 *******************************/
 
 .banner{
-    border: 1px solid red;
     padding: 1em;
     position: relative;
     overflow: hidden;
 }
 
 .banner .publicidad{
-    border: 1px solid red;
     margin: 0;
     padding: 0;
 }
@@ -223,7 +220,6 @@ nav ul #agendita a{
     Estilos carrusel
 *****************************/
 #carrusel{
-    border: 1px solid red;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -234,10 +230,8 @@ nav ul #agendita a{
 
 }
 #carrusel figure img{
-    border: 1px solid red;
 }
 #carrusel figure figcaption p{
-    border: 1px solid red;
     position: absolute;
     background: rgba(255,131,82,0.5);
     color: white;
@@ -261,13 +255,38 @@ nav ul #agendita a{
 #contenido article{
     width: 45%;
     display: inline-block;
-    border: 1px solid red;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     padding: 0.5em 0.2em;
-    margin:  0.5em 0.2em;
+    margin:  1em 0.2em;
+    max-height: 300px;
+    overflow: hidden;
 }
 
-#contenido article img{
+#contenido article figure{
+    display: inline-block;
     width: 100%;
+    margin: 0;
+    padding: 3px;
+    max-height: 200px;
+}
+
+#contenido article figure img{
+    text-align: center;
+    width: 100%;
+}
+
+#contenido article figure figcaption{
+    text-align: center;
+}
+
+
+#contenido #eventos{
+    width: 100%;
+}
+
+#contenido #eventos .agenda{
+    padding: 1em;
 }
 
 #aside{
@@ -276,6 +295,7 @@ nav ul #agendita a{
     vertical-align: baseline;
     top: 0;
     right: 0;
+    border-left: 2px solid rgba(255,131,82,0.5) ;
 }
 
 
