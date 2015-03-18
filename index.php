@@ -26,12 +26,12 @@
             <div class="form-group">
                 <input type="text" placeholder="Buscar..."/>
             </div>
-            <button type="submit" class="btn btn-default"><i class="fa fa-search fa-3x"></i></button>
+            <button type="submit" class="btn btn-default"><i class="fa fa-search fa-1x"></i></button>
         </form>
     </div>
 
     <div class="music_widget">
-        <i class="fa fa-volume-up fa-1"></i><br />
+        <i class="fa fa-volume-up fa-3x"></i><br />
         <i class="fa fa-backward fa-1"></i>
         <i class="fa fa-play fa-1"></i>
         <i class="fa fa-forward fa-1"></i>
@@ -70,6 +70,9 @@
 
 <section id="contenido">
     <article class="noticias">
+        <h2>
+            Noticias
+        </h2>
         <figure>
             <img src="http://lorempixel.com/200/300" alt=""/>
 
@@ -81,11 +84,67 @@
         </figure>
     </article>
 
-    <article class="agenda">
-        <div class="conciertos"></div>
-        <div class="cine"></div>
+    <article class="noticias">
+        <h2>
+            Cine
+        </h2>
+        <figure>
+            <img src="http://lorempixel.com/200/300" alt=""/>
+
+            <figcaption>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur.
+                </p>
+            </figcaption>
+        </figure>
     </article>
+
+    <article class="noticias">
+        <h2>
+            Geek
+        </h2>
+        <figure>
+            <img src="http://lorempixel.com/200/300" alt=""/>
+
+            <figcaption>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur.
+                </p>
+            </figcaption>
+        </figure>
+    </article>
+
+    <article class="noticias">
+        <h2>
+            Festivales
+        </h2>
+        <figure>
+            <img src="http://lorempixel.com/200/300" alt=""/>
+
+            <figcaption>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur.
+                </p>
+            </figcaption>
+        </figure>
+    </article>
+
+    <section id="eventos">
+        <article class="agenda">
+            <div class="conciertos">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="cine">
+                <p>Lorem ipsum dolor sit amet.</p>
+
+            </div>
+        </article>
+    </section>
+
+
 </section>
+
+
 <aside id="aside">
     <div class="aside_info">
         <figure>
